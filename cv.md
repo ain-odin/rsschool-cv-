@@ -12,6 +12,12 @@
 *Telegram:* [ain_odin](https://t.me/ain_odin)
 *LinkedIn:* [Ainura Odintseva](https://www.linkedin.com/in/ainura-odintseva-884697258/)
 -
+### Education:
+**Bachelor Degree:** Kyrgyz State University of Construction, Transport and Architecture | 2017 - 2022
+**Graphic design courses:** AirBee | 2018
+**JavaScript Basics:** Neobis Club | 2022
+**JavaScript/Front-end:** RS School | in progress
+-
 ### Skills:
 * HTML5, CSS3
 * JavaScript Basics
