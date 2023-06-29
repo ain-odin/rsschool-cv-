@@ -12,3 +12,11 @@
 *Telegram:* [ain_odin](https://t.me/ain_odin)
 *LinkedIn:* [Ainura Odintseva](https://www.linkedin.com/in/ainura-odintseva-884697258/)
 -
+### Skills:
+* HTML5, CSS3
+* JavaScript Basics
+* Git, GitHub
+* VS Code
+* Adobe Photoshop, Illustrator, InDesign, Figma
+* Brewing tasty coffee
+-
