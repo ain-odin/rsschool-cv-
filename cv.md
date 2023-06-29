@@ -30,3 +30,8 @@
 **Vanilla Coffee Company:** Head barista | 2014 - 2020
 **Production center:** Grafic designer | 2020 - 2022
 -
+### Languages:
+* **Kyrgyz:** Native
+* **Russian:** Native
+* **English:** Intermediate
+_
