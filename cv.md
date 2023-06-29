@@ -24,5 +24,9 @@
 * Git, GitHub
 * VS Code
 * Adobe Photoshop, Illustrator, InDesign, Figma
-* Brewing tasty coffee
+* Brewing delicious coffee
+-
+### Work experience:
+**Vanilla Coffee Company:** Head barista | 2014 - 2020
+**Production center:** Grafic designer | 2020 - 2022
 -
