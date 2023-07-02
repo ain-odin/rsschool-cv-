@@ -29,6 +29,10 @@ _
 **Vanilla Coffee Company:** Head barista | 2014 - 2020
 **Production center:** Grafic designer | 2020 - 2022
 -
+### Projects:
+* **[Plants](https://rolling-scopes-school.github.io/ain-odin-JSFEPRESCHOOL2022Q4/plants/)**
+* **[CSS-Bayan](https://ain-odin.github.io/cssBayan/cssBayan/index.html)**
+-
 ### Education:
 **Bachelor Degree:** Kyrgyz State University of Construction, Transport and Architecture | 2017 - 2022
 **Graphic design courses:** AirBee | 2018
