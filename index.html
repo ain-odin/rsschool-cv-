@@ -55,7 +55,7 @@
     <div class="container">
       <section class="section" id="personal">
         <div class="personal__photo">
-          <img src="./assets/img/my_photo.jpeg" alt="my photo">
+          <img src="./assets/img/my-photo.jpeg" alt="my photo">
         </div>
         <div class="personal__info">
           <h1>Ainura Odintseva</h1>
@@ -136,17 +136,13 @@
         <section class="section code-section" id="code">
           <div class="code__info">
             <h2 class="section__title">Code</h2>
-            <div class="section__subtitle">
-              <p class="text-title">solution of</p>
-              <a class="link-regular" href="https://www.codewars.com/kata/526571aae218b8ee490006f4">Bit Counting</a>
+            <div class="section__subtitle contacts__info-item">
+              <p class="contacts__info-title text-title">solution of</p>
+              <a class="contacts__info-link link-regular" href="https://www.codewars.com/kata/526571aae218b8ee490006f4">Bit Counting</a>
             </div>
-            <pre>
-                          <code>
-                            var countBits = function(n) {
-                            return n.toString(2).split('0').join('').length;
-                            };
-                          </code>
-                        </pre>
+            <code>
+              var countBits = (n) => n.toString(2).split('0').join('').length;
+            </code>
           </div>
         </section>
         <section class="section experience-section" id="experience">
@@ -231,11 +227,7 @@
           <p class="text-title">&#169; 2023</p>
           <a class="text-title" href="https://github.com/ain-odin" target="_blank">ain-odin</a>
         </div>
-        <div class="footer__logo">
-          <a href="https://rs.school/js/" class="footer__logo-link" target="_blank">
-            <img class="footer__logo-img" src="./assets/icons/rsschool-logo.svg" alt="rsschool-logo">
-          </a>
-        </div>
+        <a href="https://rs.school/js/" class="footer__logo" target="_blank"></a>
       </div>
     </div>
   </footer>

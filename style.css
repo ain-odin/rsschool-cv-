@@ -218,7 +218,7 @@ li {
 }
 
 .navbar__link a {
-  font-size: 15px;
+  font-size: 10px;
   font-weight: 300;
   line-height: 42px;
   text-transform: uppercase;
@@ -426,6 +426,12 @@ li {
   background: #E3CDC0;
 }
 
+@media (max-width: 400px){
+  code {
+    font-size: 10px;
+  }
+}
+
 .summary__info-goal {
   padding-top: 20px;
 }
@@ -454,13 +460,17 @@ li {
 .footer__logo{
   width: 120px;
   height: 44px;
-  background-image: url("./assets/svg/logo.svg");
+  background-image: url("./assets/icons/logo.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-@media (max-width: 992px) {
-  .footer__info {
-      justify-content: center;
+@media (max-width: 767px) {
+  .footer__info, .footer__text  {
+    flex-direction: column;
+  }
+
+  .footer__text {
+    margin-bottom: 10px;
   }
 }
