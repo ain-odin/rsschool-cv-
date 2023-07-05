@@ -24,11 +24,7 @@
 * **English:** B1
 
 ### Code (solution of [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)): 
-```
-var countBits = function(n) {
-  return n.toString(2).split('0').join('').length;
-};
-```
+`var countBits = (n) => n.toString(2).split('0').join('').length;`
 
 ### Work experience:
 * **Vanilla Coffee Company:** Head barista | 2014 - 2020
