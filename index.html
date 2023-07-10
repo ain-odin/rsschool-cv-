@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./assets/icons/unicorn.ico">
+  <title>CV</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__info">
+        <div class="header_burger">
+          <span></span>
+        </div>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".contacts-section" href="#">Contacts</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".skills-section" href="#">Skills</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".lang-section" href="#">Languages</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".code-section" href="#">Code</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".experience-section" href="#">Work experience</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".projects-section" href="#">Projects</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".education-section" href="#">Education</a>
+            </li>
+            <li class="navbar__link">
+              <a class="nav-item" data-goto=".summary-section" href="#">Summary</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <section class="section" id="personal">
+        <div class="personal__photo">
+          <img src="./assets/img/my-photo.jpeg" alt="my photo">
+        </div>
+        <div class="personal__info">
+          <h1>Ainura Odintseva</h1>
+          <hr>
+          <p>Junior Frontend developer</p>
+        </div>
+      </section>
+      <div class="cv__info">
+        <section class="section contacts-section" id="contacts">
+          <div class="contacts__info">
+            <h2 class="section__title">Contacts</h2>
+            <ul class="section__list">
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">Address:</p>
+                <p class="text-regular">Bishkek, Kyrgyzstan</p>
+              </li>
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">Phone number:</p>
+                <a class="contacts__info-link text-regular" href="tel:+996-704-960-105">+996 704 960 105</a>
+              </li>
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">Email:</p>
+                <p class="text-regular">ain.odintseva@gmail.com</p>
+              </li>
+              <li class="contacts__info-subtitle">
+                <p class="contacts__info-title link-title">You also can find me,</p>
+                <p class="contacts__info-title link-title">following <span class="link-span">links</span> below:</p>
+              </li>
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">Github:</p>
+                <a class="contacts__info-link link-regular" href="https://github.com/ain-odin"
+                  target="_blank">ain_odin</a>
+              </li>
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">Telegram:</p>
+                <a class="contacts__info-link link-regular" href="https://t.me/ain_odin" target="_blank">ain_odin</a>
+              </li>
+              <li class="contacts__info-item">
+                <p class="contacts__info-title text-title">LinkedIn:</p>
+                <a class="contacts__info-link link-regular"
+                  href="https://www.linkedin.com/in/ainura-odintseva-884697258/" target="_blank">Ainura Odintseva</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section skills-section" id="skills">
+          <div class="skills__info">
+            <h2 class="section__title">Skills</h2>
+            <ul class="section__list">
+              <li class="skills__info-item text-title">HTML5, CSS3</li>
+              <li class="skills__info-item text-title">JavaScript Basics</li>
+              <li class="skills__info-item text-title">Git, GitHub</li>
+              <li class="skills__info-item text-title">VS Code</li>
+              <li class="skills__info-item text-title">Adobe Photoshop, Illustrator, InDesign, Figma</li>
+              <li class="skills__info-item text-title">Brewing delicious coffee</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section lang-section" id="lang">
+          <div class="lang__info">
+            <h2 class="section__title">Languages</h2>
+            <ul class="section__list">
+              <li class="lang__info-item">
+                <p class="lang__info-title text-title">Kyrgyz:</p>
+                <p class="text-regular">Native</p>
+              </li>
+              <li class="lang__info-item">
+                <p class="lang__info-title text-title">Russian:</p>
+                <p class="text-regular">Native</p>
+              </li>
+              <li class="lang__info-item">
+                <p class="lang__info-title text-title">English:</p>
+                <p class="text-regular">B1</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section code-section" id="code">
+          <div class="code__info">
+            <h2 class="section__title">Code</h2>
+            <div class="section__subtitle contacts__info-item">
+              <p class="contacts__info-title text-title">solution of</p>
+              <a class="contacts__info-link link-regular" href="https://www.codewars.com/kata/526571aae218b8ee490006f4">Bit Counting</a>
+            </div>
+            <code>
+              var countBits = (n) => n.toString(2).split('0').join('').length;
+            </code>
+          </div>
+        </section>
+        <section class="section experience-section" id="experience">
+          <h2 class="section__title">Work experience</h2>
+          <ul class="section__list">
+            <li class="experience__info-item">
+              <p class="experience__info-title text-title">Vanilla Coffee Company</p>
+              <p class="text-regular">Head barista | 2014 - 2020</p>
+            </li>
+            <li class="experience__info-item">
+              <p class="experience__info-title text-title">Production center</p>
+              <p class="text-regular">Grafic designer | 2020 - 2022</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section projects-section" id="projects">
+          <div class="projects__info">
+            <h2 class="section__title">Projects</h2>
+            <ul class="section__list">
+              <li class="projects__info-item">
+                <a class="projects__info-title link-regular"
+                  href="https://rolling-scopes-school.github.io/ain-odin-JSFEPRESCHOOL2022Q4/plants/"
+                  target="_blank">Plants</a>
+              </li>
+              <li class="projects__info-item">
+                <a class="projects__info-title link-regular"
+                  href="https://ain-odin.github.io/cssBayan/cssBayan/index.html" target="_blank">CSS-Bayan</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section education-section" id="education">
+          <div class="education__info">
+            <h2 class="section__title">Education</h2>
+            <ul class="section__list">
+              <li class="education__info-item">
+                <p class="education__info-title text-title">Bachelor Degree</p>
+                <p class="text-regular">Kyrgyz State University of Construction, Transport and Architecture | 2017 -
+                  2022</p>
+              </li>
+              <li class="education__info-item">
+                <p class="education__info-title text-title">Graphic design courses</p>
+                <p class="text-regular">AirBee | 2018</p>
+              </li>
+              <li class="education__info-item">
+                <p class="education__info-title text-title">JavaScript courses</p>
+                <p class="text-regular">Neobis Club | in progress</p>
+              </li>
+              <li class="education__info-item">
+                <p class="education__info-title text-title">JavaScript | HTML | CSS</p>
+                <p class="text-regular">Code-basics courses | 2023</p>
+              </li>
+              <li class="education__info-item">
+                <p class="education__info-title text-title">JavaScript/Front-end. Stage 0</p>
+                <p class="text-regular">RS School | in progress</p>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section summary-section" id="summary">
+          <div class="summary__info">
+            <h2 class="section__title">Summary</h2>
+            <p class="text-regular">
+              I am an enthusiastic, self-motivated, reliable, responsible and hard working person. Motherhood
+              additionally strengthened my qualities such as patience, multitasking, attention to detail. I am a mature
+              team worker and adaptable to all challenging situations. I am able to work well both in a team environment
+              as well as using own initiative. I am able to work well under pressure and adhere to strict deadlines.
+            </p>
+            <p class="summary__info-goal text-regular">
+              My goal is to learn a pure JavaScript at a good level and learn the React library. I would like to work
+              under the guidance of an experienced developer to gain practical experience.
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__info">
+        <div class="footer__text">
+          <p class="text-title">&#169; 2023</p>
+          <a class="text-title" href="https://github.com/ain-odin" target="_blank">ain-odin</a>
+        </div>
+        <a href="https://rs.school/js/" class="footer__logo" target="_blank"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+
+</html>
